@@ -1,4 +1,4 @@
-/**
+/** flood fill 문제이다.
  * 
  * @see https://www.acmicpc.net/problem/14497
  */
