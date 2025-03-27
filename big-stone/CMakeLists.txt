@@ -17,4 +17,17 @@ add_executable(big_stone main.cpp
         week1/problem/1-H.cpp
         week1/problem/1-I.cpp
         week1/problem/1-J.cpp
+        week3/problem/3-N.cpp
+        week3/problem/3-O.cpp
+        week3/problem/3-P.cpp
+        week3/problem/3-Q.cpp
+        week4/notion/bin_operations.cpp
+        week4/problem/4-A.cpp
+        week4/problem/4-B.cpp
+        week4/problem/4-C.cpp
+        week4/problem/4-D.cpp
+        week4/problem/4-E.cpp
+        week4/problem/4-F.cpp
+        week4/problem/4-G.cpp
+        week4/problem/4-H.cpp
 )
