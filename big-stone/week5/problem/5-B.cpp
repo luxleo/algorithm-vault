@@ -2,6 +2,7 @@
 // Created by 이동한 on 2025. 8. 19..
 //
 /**
+ * G4
  * [9935](https://www.acmicpc.net/problem/9935)
  * 해법은 두가지로 제시 하였다.
  *
