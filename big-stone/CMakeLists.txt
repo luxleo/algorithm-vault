@@ -43,4 +43,5 @@ add_executable(big_stone main.cpp
         week5/problem/5-D.cpp
         week5/problem/5-E.cpp
         week5/problem/5-F.cpp
+        week5/problem/5-G.cpp
 )
