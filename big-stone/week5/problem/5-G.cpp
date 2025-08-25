@@ -1,6 +1,10 @@
 //
 // Created by 이동한 on 2025. 8. 24..
 //
+
+/** G3 [1633](https://www.acmicpc.net/problem/1644)
+ * 에라토스테네스의 체 + 투포인터를 이용한 구간합.
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
