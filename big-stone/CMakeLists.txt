@@ -66,4 +66,5 @@ add_executable(big_stone main.cpp
         week6/notion/a_binary_search.cpp
         week6/notion/b_LIS.cpp
         week6/6-A.cpp
+        week6/6-B.cpp
 )
