@@ -4,6 +4,11 @@
 /** S4 @see https://www.acmicpc.net/problem/1269
  * 카운팅 스탈 맵 또는 배열 : 카운팅 할 때는 배열이나 맵 이용
  */
+/** S4 @see https://www.acmicpc.net/problem/1269
+ *  ㄷㅐ칭 차집합을 구할때 카운트는 배열 또는 맵 떠올리기
+ *  맵 사용 방법 잘 보기
+ *  맵 이터레이션 하는 방법 잘 보기
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
