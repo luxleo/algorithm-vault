@@ -1,6 +1,7 @@
 //
 // Created by 이동한 on 2025. 10. 1..
 //
+
 /** S4 @see https://www.acmicpc.net/problem/2776
  * cout << << "\n" 무조건 이거로 해야한다. endl 으로 하면 타임에러 난다.
  */
@@ -32,7 +33,7 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> f[i];
         }
-        sort(f, f + n);
+        sort(f, f + n); // ㅂㅐ열 정렬 하는 방법
         cin >> m;
         for (int i = 0; i < m; i++) {
             cin >> temp;
