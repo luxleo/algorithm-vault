@@ -74,4 +74,5 @@ add_executable(big_stone main.cpp
         week6/6-G.cpp
         week6/6-H.cpp
         week6/6-I.cpp
+        week6/6-J.cpp
 )
