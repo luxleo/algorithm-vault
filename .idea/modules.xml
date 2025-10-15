@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm-vault.iml" filepath="$PROJECT_DIR$/.idea/algorithm-vault.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm_vault.iml" filepath="$PROJECT_DIR$/.idea/algorithm_vault.iml" />
+    </modules>
+  </component>
+</project>
