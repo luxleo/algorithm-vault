@@ -12,7 +12,7 @@
  *
  * 2번의 경우 prev_list를 이용하여 구한다.
  */
-#include <cstdio>
+#include <bits/stdc++.h>
 #include <iostream>
 #include <algorithm>
 using namespace std;
