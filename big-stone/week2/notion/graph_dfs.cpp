@@ -17,7 +17,7 @@ void dfs_first(int from)
     cout << "end of traversing from " << from << "\n";
 }
 
-// call fisrt check later
+// call first check later
 void dfs_second(int from)
 {
     if (vst[from]) return;

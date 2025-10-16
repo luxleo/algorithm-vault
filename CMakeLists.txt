@@ -124,4 +124,6 @@ add_executable(algorithm_vault
         big-stone/week2/notion/graph_adj_matrix.cpp
         big-stone/week2/notion/graph_adj_list.cpp
         big-stone/week2/notion/graph_map_traverse_four_direction.cpp
-        big-stone/week2/notion/graph_dfs.cpp)
+        big-stone/week2/notion/graph_dfs.cpp
+        big-stone/week2/notion/graph_bfs.cpp
+        big-stone/week2/notion/graph_tree_traverse.cpp)
