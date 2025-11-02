@@ -2,6 +2,8 @@
 // Created by 이동한 on 2025. 11. 2..
 //
 
+/** @see https://www.acmicpc.net/problem/2240
+ */
 #include <bits/stdc++.h>
 #define MAX_T 1001
 #define MAX_STEP 34

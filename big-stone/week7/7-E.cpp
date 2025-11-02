@@ -2,6 +2,9 @@
 // Created by 이동한 on 2025. 11. 2..
 //
 
+/** @see https://www.acmicpc.net/problem/4811 - 알약 문제
+ * dp로 경우의 수를 카운트하는 경우 모든 케이스를 더해준다.
+ */
 #include <bits/stdc++.h>
 #define MAX_DAY 31
 typedef long long ll;
