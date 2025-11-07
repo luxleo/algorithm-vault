@@ -31,4 +31,38 @@ if (ny < 0 || ny > n || nx < 0 || nx > n) continue;
 ```
 
 ### 3-3. dfs
+[source](graph_dfs.cpp)
+
+traversing graph using dfs can handle `connected-component` problem.
+```c++
+// dfs example
+int vst[n];
+vector<int> adj[n];
+
+// check first
+void dfs(int from){
+    cout << from << " ";
+    vst[from] = 1;
+    for(int i : adj[from]){
+        if (!vst[i]) dfs(i);
+    }
+}
+
+// call first check inside dfs
+void dfs(int from){
+    if (vst[from]) return;
+    vst[from] = 1;
+    cout << from << " ";
+    for (int i: adj[from]){
+        dfs(i);
+    }
+```
+
+### 3-4. bfs
+[source](graph_bfs.cpp)
+
+using bfs can handle `shortest-path` problem.
+
+### 3-5 traversing tree : preorder, inorder ,postorder
+[source](graph_tree_traverse.cpp)
 
