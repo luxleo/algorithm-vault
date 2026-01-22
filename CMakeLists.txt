@@ -130,4 +130,5 @@ add_executable(algorithm_vault
         big-stone/week3/principle/brute_force_loop.cpp
         big-stone/week7/notion/dp_notion_basic.cpp
         big-stone/week7/notion/dp_notion_count.cpp
-        big-stone/week7/notion/dp_bottom_up_top_down.cpp)
+        big-stone/week7/notion/dp_bottom_up_top_down.cpp
+        big-stone/week7/7-P.cpp)
