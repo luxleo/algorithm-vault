@@ -131,4 +131,5 @@ add_executable(algorithm_vault
         big-stone/week7/notion/dp_notion_basic.cpp
         big-stone/week7/notion/dp_notion_count.cpp
         big-stone/week7/notion/dp_bottom_up_top_down.cpp
-        big-stone/week7/7-P.cpp)
+        big-stone/week7/7-P.cpp
+        big-stone/week7/7-Q.cpp)
