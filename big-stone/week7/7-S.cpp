@@ -4,7 +4,10 @@
 /** @see https://www.acmicpc.net/problem/1509
  * dp 배열이 한번에 여러개 사용 될 수도 있다. (dp,dp2)
  * 분할의 갱신 조건이 현재까지의 문자열이 팰린드롬인 경우를 떠올려야했다.
- * 메모이제이션 문제 였다.
+ *
+ * dp[start][size] 처럼 인덱스의 의미가 중요하다. 이 문제의 경우 start를 포함한 size 만큼의 구간이 펠린드롬인가 를 의미한다.
+ *
+ * 이 문제 처럼 어려운 dp 의 경우 전처리가 필요하다 (펠린드롬 여부 전처리)
  */
 #include <bits/stdc++.h>
 using namespace std;
