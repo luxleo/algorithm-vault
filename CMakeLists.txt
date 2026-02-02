@@ -137,4 +137,5 @@ add_executable(algorithm_vault
         big-stone/week7/7-S.cpp
         big-stone/week7/7-T.cpp
         big-stone/week7/7-U.cpp
-        big-stone/week7/7-V.cpp)
+        big-stone/week7/7-V.cpp
+        big-stone/week7/7-W.cpp)
