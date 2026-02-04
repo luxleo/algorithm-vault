@@ -54,7 +54,7 @@ void backTrack(int p1, int p2)
 int main()
 {
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-    cin >> N >> W;
+    cin >> N >> W; //scanf("%d %d", &N, &W) 를 사용해서도 뛰어 쓰기로 주어진 결과 입력 받기 가능
 
     // 경찰차의 위치는 사건 발생 위치와 같으므로
     events[0] = {1,1};
