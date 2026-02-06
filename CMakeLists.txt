@@ -143,4 +143,6 @@ add_executable(algorithm_vault
         big-stone/week7/7-Y.cpp
         big-stone/week8/8-A.cpp
         big-stone/week8/8-B.cpp
-        big-stone/week8/8-C.cpp)
+        big-stone/week8/8-C.cpp
+        big-stone/week8/notion/fenwick_tree.cpp
+        big-stone/week8/8-D.cpp)
