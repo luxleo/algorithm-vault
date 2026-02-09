@@ -6,6 +6,7 @@
  * 펜윅 트리 문제의 전형이었다.
  * 수가 바뀌면 그 수 자체를 동적 배열에서 바꾸는게 아니라 그 차이만큼 바꾸어 주어야한다.
  * 그리고 원본 데이터는 그 자체로 바꿔 줘야한다, )ex : dat[i] = newVal, update(i, newVal - oldVal)
+ * 입력 수를 계산하는 문제가 컸다. N+1만큼의 입력을 받은 상태에서 N+1+M+K 줄에 거쳐 라고 하면 => M+K 만큼 입력을 더 받으면 된다.
  */
 #include <bits/stdc++.h>
 typedef long long ll;
@@ -47,7 +48,7 @@ int main()
         update(i+1, temp);
     }
 
-    m+=k;
+    m+=k; // 입력 받는 수가 N+K+M+1 이라고 했는데 N+1 만큼은 이미 입력 받았으므로
     while (m--)
     {
         cin >> a;
