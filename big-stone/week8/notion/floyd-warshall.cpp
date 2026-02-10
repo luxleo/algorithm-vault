@@ -38,8 +38,9 @@ int main() {
     }
 
     // O(V**3) 의 시간 복잡도로 갱신한다.
-    for (int i = 1; i <= num_node; i++) {
-        for (int k = 1; k <= num_node; k++) {
+    // 반드시 경유지를 밖으로 빼주어야 모든 경로를 탐색할 수 있다.
+    for (int k = 1; i <= num_node; i++) {
+        for (int i = 1; k <= num_node; k++) {
             for (int j = 1; j <= num_node; j++) {
                 // 만일 경유 경로가 가중치가 있으면 갱신한다.
                 if (dist[i][k] != INF && dist[k][j] != INF) {

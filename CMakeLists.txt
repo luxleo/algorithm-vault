@@ -148,4 +148,5 @@ add_executable(algorithm_vault
         big-stone/week8/8-D.cpp
         big-stone/week8/8-K.cpp
         big-stone/week8/8-L.cpp
-        big-stone/week8/notion/dijkstra.cpp)
+        big-stone/week8/notion/dijkstra.cpp
+        big-stone/week8/8-N.cpp)
