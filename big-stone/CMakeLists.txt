@@ -104,4 +104,5 @@ add_executable(big_stone main.cpp
         week8/8-M.cpp
         week8/notion/floyd-warshall.cpp
         week8/notion/bellman-ford.cpp
+        week8/8-O.cpp
 )
