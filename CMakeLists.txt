@@ -152,4 +152,6 @@ add_executable(algorithm_vault
         big-stone/week8/8-N.cpp
         big-stone/week8/8-R.cpp
         big-stone/week8/8-S.cpp
-        big-stone/week8/8-T.cpp)
+        big-stone/week8/8-T.cpp
+        big-stone/week8/8-U.cpp
+        big-stone/week8/8-W.cpp)
