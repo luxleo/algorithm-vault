@@ -11,7 +11,7 @@ struct Pos
 {
     int y, x;
 };
-int N,W, dp[1001][1001], y,x;
+int N,W, dp[1001][1001], y,x; // dp[p1][p2] 겯찰차 1,2 가 각자 위치에 있을때 움직인 최소 거리
 Pos events[1003];
 
 // 경찰차가 현재 위치에서 다음 위치로 움직이는 거리 계산
@@ -27,8 +27,8 @@ int getMinDist(int p1, int p2)
     if (nextP == W+2) return 0;
     if (dp[p1][p2]) return dp[p1][p2];
 
-    int move1 = getMinDist(nextP, p2) + moveDist(p1, nextP);
-    int move2 = getMinDist(p1, nextP) + moveDist(p2, nextP);
+    int move1 = getMinDist(nextP, p2) + moveDist(p1, nextP); // 경찰차 1이 다음 사건으로 이동
+    int move2 = getMinDist(p1, nextP) + moveDist(p2, nextP); // 경찰차 2가 다음 사건으로 이동
     return dp[p1][p2] = min(move1, move2);
 }
 

@@ -11,8 +11,8 @@ struct Segment // 구간의 길이와 해당 구간 동안 사람의 수
 {
     int duration, cnt;
 };
-int N,M,K,T, dp[301][301], cnt[301]; // cnt: 시간당 사람의 수. dp[구간인덱스][남은 사람의 수]
-vector<Segment> v;
+int N,M,K,T, dp[301][301], cnt[301]; // cnt[구간]: 시간구간 당 사람의 수. dp[구간인덱스][남은 사람의 수]
+vector<Segment> v; // 구간 압축 벡터이다. 같은 인원이 유지되는 시간을 순차적으로 기록한다.
 
 /**
  *
@@ -29,11 +29,15 @@ int go(int idx, int remnant, int prev)
 
     int cost = max(0, T - v[idx].cnt);
     int real_cost = (prev >= cost) ? 0 : cost - prev; // 이전에 부른 친구가 있고 그 수가 비용보다 크면 비용이 0, 아니면 더 불러야하는 수;
-    if (cost == 0) prev = 0;
+    if (cost == 0) prev = 0; // 친구들을 더 부를 필요가 없다는 것은 (욱제와 부른친구를 제외한 인원이) T명 이상이 되었으므로 이전에 부른 친구들은 다 나간다.
     if (remnant >= real_cost)
     {
-        return ret = max(go(idx+1, remnant - real_cost, cost) + v[idx].duration, go(idx+1, remnant, prev));
+        return ret = max(
+            go(idx+1, remnant - real_cost, cost) + v[idx].duration, // 부족한 만큼 친구를 더 부른다. 이러면 영제는 더 머무를 수 있다.
+            go(idx+1, remnant, prev) // 부르지 않는다 -> 이러면 영제는 떠나게 되고 영제가 머무른 시간은 갱신되지 않는다.
+            );
     }
+    // 더이상 영선이가 부를 수 있는 친구가 남아있지 않다.
     // ret = go(idx+1,remnant,prev) 의 의미는 영제가 떠났다는 의미가 되므로 v[idx].duration 을 더하지 않는다. 이는 머무는 시간이 추가 되지 않음을 의미한다.
     return ret = go(idx+1, remnant, prev);
 }

@@ -30,6 +30,8 @@ int go(int STR, int INT)
     ret = 0;
     int pnt = 0;
     vector<int> track;
+
+    // 먼저 현재 스탯으로 깰 수 있는 퀘스트를 다 깬다.
     for (int i=0; i<n; i++)
     {
         if (games[i].STR <= STR || games[i].INT <= INT)
@@ -44,12 +46,15 @@ int go(int STR, int INT)
         }
     }
 
+    // 깨고 나서 얻은 포인트를 분배 했을때 갈 수 있는 퀘스트 들중 최선의 것으로 dp를 한번 더 갱신 해준다.
     for (int i=0; i<=pnt; i++)
     {
         int nextStr = min(1000,STR + i);
         int nextInt = min(1000,INT + (pnt - i));
         ret = max(ret, go(nextStr, nextInt));
     }
+
+    // 그래프 확장 방식으로 탐색하고 있으므로 탐색 끝나고 나면 원복 시켜준다.
     for (int game : track)
         vst[game] = false;
     return ret;
