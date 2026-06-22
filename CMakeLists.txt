@@ -154,4 +154,9 @@ add_executable(algorithm_vault
         big-stone/week8/8-S.cpp
         big-stone/week8/8-T.cpp
         big-stone/week8/8-U.cpp
-        big-stone/week8/8-W.cpp)
+        big-stone/week8/8-W.cpp
+        big-stone/week8/8-D2.cpp
+        big-stone/week4/notion/bit_masking_combination.cpp
+        big-stone/week2/problem/2-B-1.cpp
+        big-stone/week2/problem/2-C-1.cpp
+)

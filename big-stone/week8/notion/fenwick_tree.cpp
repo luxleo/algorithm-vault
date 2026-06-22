@@ -1,6 +1,6 @@
 //
 // Created by 5600G on 2026-02-06.
-//
+// 26.03.12
 
 #include <iostream>
 #include <ostream>
