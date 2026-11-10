@@ -178,12 +178,6 @@ add_executable(algorithm_vault
         big-stone/week3/problem/3-C-1.cpp
         big-stone/week3/problem/3-D-1.cpp
         big-stone/week3/problem/3-E-1.cpp
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         big-stone/week3/problem/3-F-1.cpp
         big-stone/week3/problem/3-G-1.cpp
-=======
->>>>>>> 64e9fb7362005c61027669cdd169aa55b0c8ecd8
->>>>>>> c3e5188ce46b05ed69b5ce7c495a138fb9ee8c2a
 )
