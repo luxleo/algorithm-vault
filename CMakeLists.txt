@@ -159,4 +159,18 @@ add_executable(algorithm_vault
         big-stone/week4/notion/bit_masking_combination.cpp
         big-stone/week2/problem/2-B-1.cpp
         big-stone/week2/problem/2-C-1.cpp
+        big-stone/week2/problem/2-D-1.cpp
+        big-stone/week2/problem/2-E-1.cpp
+        big-stone/week2/problem/2-G-1.cpp
+        big-stone/week2/problem/2-I-1.cpp
+        big-stone/week2/problem/2-J-1.cpp
+        big-stone/week2/problem/2-L-1.cpp
+        big-stone/week2/problem/2-M-1.cpp
+        big-stone/week2/problem/2-N-1.cpp
+        big-stone/week2/problem/2-O-1.cpp
+        big-stone/week2/problem/2-P-1.cpp
+        big-stone/week2/problem/2-Q-1.cpp
+        big-stone/week2/problem/2-R-1.cpp
+        big-stone/week2/problem/2-S-1.cpp
+        big-stone/week2/problem/2-T-1.cpp
 )
