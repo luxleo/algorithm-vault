@@ -173,4 +173,9 @@ add_executable(algorithm_vault
         big-stone/week2/problem/2-R-1.cpp
         big-stone/week2/problem/2-S-1.cpp
         big-stone/week2/problem/2-T-1.cpp
+        big-stone/week3/problem/3-A-1.cpp
+        big-stone/week3/problem/3-B-1.cpp
+        big-stone/week3/problem/3-C-1.cpp
+        big-stone/week3/problem/3-D-1.cpp
+        big-stone/week3/problem/3-E-1.cpp
 )
