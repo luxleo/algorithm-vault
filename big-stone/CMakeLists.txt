@@ -114,4 +114,11 @@ add_executable(big_stone main.cpp
         week3/problem/3-K-1.cpp
         week3/problem/3-L-1.cpp
         week4/problem/4-B-1.cpp
+        week6/6-A-1.cpp
+        week6/6-B-1.cpp
+        week6/6-C-1.cpp
+        week6/6-D-1.cpp
+        week6/6-E-1.cpp
+        week6/6-F-1.cpp
+        week6/6-G-1.cpp
 )
